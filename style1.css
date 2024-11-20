@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar {
+    height: 100dvh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../ARC/background.avif);
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: x-large;
+    font-weight: normal;
+    padding-top: 30px;
+    padding-inline: 3% 3%;
+    color: #2E4D59;
+}
+
+.logo {
+    width: 85px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+div nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2px;
+    font-size: 10px;
+}
+
+
+
+span {
+    color: #2E4D59;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #2E4D59;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: white;
+    transition: .3s;
+}
+
+button {
+    border: none;
+    background: white;
+    margin-right: 30px;
+    border-radius: 1px;
+    color: #2E4D59;
+    font-weight: bold;
+    font-size: 7px;
+    transition: .4s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+.hometext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 170px 27% 1px 70px;
+    font-size: x-small;
+    color: white;
+
+}
